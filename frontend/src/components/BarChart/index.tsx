@@ -23,6 +23,7 @@ export function BarChart() {
   return (
     <>
       <Chart
+        className="text-light"
         options={{ ...options, xaxis: mockData.labels }}
         series={mockData.series}
         type="bar"

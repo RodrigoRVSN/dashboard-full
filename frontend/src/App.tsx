@@ -6,7 +6,7 @@ import { Navbar } from "components/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="bg-light">
       <Navbar />
       <div className="container">
         <h1 className="text-primary py-3">Dashboard de Vendas</h1>
@@ -26,7 +26,7 @@ function App() {
         <DataTable />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
