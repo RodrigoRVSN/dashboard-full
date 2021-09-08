@@ -10,7 +10,7 @@ export function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              Rodrigo VIctor
+              Rodrigo Victor
             </a>
           </p>
           <p className="text-light">
