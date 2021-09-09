@@ -1,4 +1,4 @@
-package com.rodrigorvsn.springDashboard;
+package com.rodrigorvsn.springDashboard.config;
 
 import java.util.Arrays;
 
