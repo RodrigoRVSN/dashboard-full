@@ -6,7 +6,7 @@ export function Dashboard() {
   return (
     <>
       <div className="bg-light">
-        <div className="container">
+        <div className="container center">
           <h1 className="text-primary py-3">Dashboard de Vendas</h1>
           <div className="row px-3">
             <div className="col-sm-6">
