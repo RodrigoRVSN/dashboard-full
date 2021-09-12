@@ -2,9 +2,10 @@
 
 ### This project is a website with seller data (such as successful sales) persisted in the database.
 
-
 #### Frontend: https://rodrigo-dashboard.netlify.app/
+
 #### Backend: https://springdashboard.herokuapp.com`{endpoint}`
+
 ---
 
 # 🛠 Tools used
@@ -22,12 +23,15 @@
 # 🚀 How to execute
 
 ## - Frontend
+
 - `yarn` or `npm install` to install de package with the dependencies.
 - `yarn dev` to run in your https://localhost:3000.
 - You can use https://rodrigo-dashboard.netlify.app/ too.
+
 ## - Backend
+
 - Open Spring Tool Suite and start server (8080).
-- Endpoints GET: 
+- Endpoints GET:
   - BaseURL: http://localhost:8080 or https://springdashboard.herokuapp.com (deploy, maybe off)
   - `/sales` - list sales data
   - `/sellers` - list sellers data
@@ -37,9 +41,9 @@
 ---
 
 <div align="center">
-## <img src="./frontend/public/app_spring_react.gif"/>
+ <img src="./frontend/public/app_spring_react.gif"/>
 </div>
 
-___
+---
 
 <p align="center"> Made with 💓 by <a href="https://www.linkedin.com/in/rodrigovictorrvsn/">Rodrigo Victor</a></p>
