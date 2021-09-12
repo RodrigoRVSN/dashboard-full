@@ -29,10 +29,19 @@ export function DonutChart() {
       show: true,
     },
   };
+
   return (
     <>
       <Chart
-        options={{ ...options, labels: chartData.labels }}
+        options={{
+          ...options,
+          labels: chartData.labels,
+          legend: {
+            labels: {
+              colors: ["#e9c46a"],
+            },
+          },
+        }}
         series={chartData.series}
         type="donut"
         height="240"

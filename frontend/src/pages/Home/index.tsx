@@ -1,23 +1,20 @@
 import { Link } from "react-router-dom";
+import imgDashboard from "assets/images/imgDashboard.svg";
 
 export function Home() {
   return (
     <>
-      <div className="container">
-        <div className="jumbotron">
-          <h1 className="display-4">DSVendas</h1>
-          <p className="lead">
-            Analise o desempenho das suas vendas por diferentes perspectivas
-          </p>
-          <hr />
-          <p>
-            Esta aplicação consiste em exibir um dashboard a partir de dados
-            fornecidos por um back end construído com Spring Boot.
-          </p>
+      <div className="jumbotron__cta">
+        <div className="jumbotron__cta__text">
+          <h2>RVendas</h2>
+          <h3>
+            Analise o desempenho das suas vendas por diferentes perspectivas.
+          </h3>
           <Link className="btn btn-primary btn-lg" to="/dashboard">
             Acessar dashboard
           </Link>
         </div>
+        <img src={imgDashboard} alt="dashboard" />
       </div>
     </>
   );

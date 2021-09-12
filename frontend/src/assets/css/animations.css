@@ -1,0 +1,28 @@
+/* Keyframes */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes toRight {
+  from {
+    margin-left: 10rem;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes toDown {
+  from {
+    margin-bottom: 10rem;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}

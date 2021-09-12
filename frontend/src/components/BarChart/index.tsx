@@ -62,7 +62,15 @@ export function BarChart() {
   return (
     <>
       <Chart
-        options={{ ...options, xaxis: chartData.labels }}
+        options={{
+          ...options,
+          xaxis: chartData.labels,
+          yaxis: {
+            labels: {
+              style: { colors: "#e9c46a" },
+            },
+          },
+        }}
         series={chartData.series}
         type="bar"
         height="240"

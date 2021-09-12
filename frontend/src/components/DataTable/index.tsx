@@ -1,6 +1,6 @@
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Pagination } from "components/Pagination";
-import React, { useEffect, useState } from "react";
 import { SalePage } from "types/sale";
 import { formatLocalDate } from "utils/formatLocalDate";
 import { BASE_URL } from "utils/requests";
@@ -28,7 +28,7 @@ export function DataTable() {
   }, [activePage]);
 
   return (
-    <>
+    <div className="container__page">
       <Pagination page={page} onPageChange={changePage} />
       <div className="table-responsive">
         <table className="table table-striped table-sm">
@@ -56,6 +56,6 @@ export function DataTable() {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 }
